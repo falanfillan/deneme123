@@ -1,6 +1,7 @@
-dash==2.6.0
-Flask==2.0.3
+dash
+Flask
 pandas
 gunicorn
 numpy
 scipy==1.13.0
+werkzeug
