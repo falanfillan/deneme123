@@ -2,4 +2,4 @@ dash==2.6.0
 pandas
 gunicorn
 numpy
-
+scipy==1.7.0
