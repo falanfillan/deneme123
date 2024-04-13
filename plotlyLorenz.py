@@ -1,6 +1,7 @@
 import numpy as np
 from dash import Dash, html, dcc, Input, Output, clientside_callback
 from scipy.integrate import solve_ivp
+from dash.dependencies import Input, Output, State
 
 # Lorenz equations
 def lorenz(t, state, sigma=10, rho=28, beta=8/3):
