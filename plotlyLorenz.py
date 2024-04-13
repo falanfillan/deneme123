@@ -22,6 +22,8 @@ figure = dict(
 )
 
 app = Dash(__name__, update_title=None)
+server = app.server
+
 app.layout = html.Div(
     [
         html.H4("Lorenz System"),
